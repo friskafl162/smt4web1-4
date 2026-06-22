@@ -1,61 +1,26 @@
-# CodeIgniter 4 Framework
+| Nama                     | Kelas    | NIM       | Mata Kuliah           | Ujian |
+|---------------------------|----------|------------|------------------------|--------|
+| Friska Pebriana Lestari   | I.24.1A | 312410160  | Pemrograman Web 2      | Tugas    |
 
-## What is CodeIgniter?
+## Pertemuan 1
+1. Menampilkan parse error
+   <img width="1919" height="991" alt="Screenshot 2026-02-23 111047" src="https://github.com/user-attachments/assets/a5814bd7-f9d3-464e-9878-ba5629d9b027" />
+2. Codelgniter
+   <img width="1410" height="844" alt="Screenshot 2026-02-23 111104" src="https://github.com/user-attachments/assets/519b0fc7-30fb-48f7-ae90-4ef563ffe4c0" />
+   <img width="1919" height="1060" alt="Screenshot 2026-02-23 111141" src="https://github.com/user-attachments/assets/d68b6277-5463-427a-bad3-3facbfaae173" />
+3. Routes
+   <img width="1101" height="435" alt="Screenshot 2026-02-23 111944" src="https://github.com/user-attachments/assets/97372bab-4738-43da-806e-f7caa7ade0c9" />
+4. Halaman Home
+   <img width="848" height="556" alt="Screenshot 2026-03-07 000952" src="https://github.com/user-attachments/assets/a47d856a-7409-48fe-ae3a-5acb53013b9f" />
+5. footer
+   <img width="881" height="99" alt="Screenshot 2026-03-02 111324" src="https://github.com/user-attachments/assets/e9b69bf3-754f-4367-861b-3a1fd61afb5e" />
+6. Daftar Artikel
+   <img width="748" height="479" alt="Screenshot 2026-03-08 122248" src="https://github.com/user-attachments/assets/e9ace42f-1fa4-4b8a-8ea0-9f46686746c6" />
+7. Login
+   <img width="1920" height="1128" alt="Screenshot 2026-06-22 185145" src="https://github.com/user-attachments/assets/e04c4d2d-1570-4565-a922-f0ad49889781" />
+8. Add
+   <img width="1920" height="1128" alt="Screenshot 2026-06-22 190902" src="https://github.com/user-attachments/assets/5be8e940-9eee-45d9-a9e7-1493ffd9f98e" />
+9. Edit / ubah
+   <img width="1920" height="1128" alt="Screenshot 2026-06-22 190911" src="https://github.com/user-attachments/assets/0ca8ec0c-2327-4b2e-8257-103cf607e508" />
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
-
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 8.2 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
